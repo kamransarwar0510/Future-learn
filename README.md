@@ -1,84 +1,115 @@
-🎓 FutureLearn – Online Learning Platform
+# 🎓 **FutureLearn**
 
-FutureLearn is a modern online learning platform that provides access to courses, short programs, and degree pathways from leading universities and institutions worldwide. The platform enables learners to explore new subjects, build valuable skills, and advance their careers through flexible and accessible online education.
+FutureLearn is a modern online learning platform that offers courses, short programs, and degree pathways from leading universities and institutions worldwide. It enables learners to explore subjects, gain new skills, and advance their careers through flexible online education.
 
-🚀 Project Overview
+---
 
-This project is a frontend web application built with modern web technologies. It provides:
+# 📌 **Project Overview**
 
-📚 Course browsing and exploration
+FutureLearn includes:
 
-🧑‍🎓 Structured learning paths
+- 📚 Course browsing interface
+- 🎯 Structured learning paths
+- 🧑‍🎓 Skill-based exploration
+- 💻 Modern responsive design
+- ⚡ Fast and optimized frontend
 
-🎯 Skill-based learning experiences
+This project demonstrates a scalable frontend architecture using modern web technologies.
 
-💻 Responsive and user-friendly interface
+---
 
-⚡ Fast performance and optimized development workflow
+# 🛠️ **Tech Stack**
 
-🛠️ Tech Stack
+- **Vite** – Lightning-fast build tool
+- **React** – UI library
+- **TypeScript** – Type-safe development
+- **Tailwind CSS** – Utility-first styling
+- **shadcn-ui** – UI components
+- **Vitest** – Testing framework
 
-This project is built using:
+---
 
-⚡ Vite – Fast development build tool
+# 📂 **Project Structure**
 
-⚛️ React – UI library
-
-📘 TypeScript – Type-safe JavaScript
-
-🎨 Tailwind CSS – Utility-first CSS framework
-
-🧩 shadcn-ui – Reusable UI components
-
-🧪 Vitest – Unit testing framework
-
-📂 Project Structure
+```
+FutureLearn/
+│
 ├── public/              # Static assets
-├── src/                 # Main application source code
-│   ├── components/      # Reusable UI components
-│   ├── pages/           # Application pages
-│   ├── hooks/           # Custom React hooks
-│   ├── lib/             # Utility functions
-│   └── main.tsx         # Application entry point
+├── src/                 # Source code
+│   ├── components/      # UI components
+│   ├── pages/           # Pages
+│   ├── hooks/           # Custom hooks
+│   ├── lib/             # Utilities
+│   └── main.tsx         # Entry point
+│
 ├── index.html
 ├── package.json
 ├── vite.config.ts
-└── tailwind.config.ts
+├── tailwind.config.ts
+└── tsconfig.json
+```
 
-⚙️ Getting Started
-Prerequisites
+---
 
-Make sure you have installed:
+# ⚙️ **Getting Started**
 
-Node.js (recommended via nvm)
+## 📋 Prerequisites
 
-npm
+- Node.js
+- npm
 
-Installation
-# 1. Clone the repository
+---
+
+## 🔧 Installation
+
+```bash
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# 2. Navigate into the project folder
+# Navigate into the project folder
 cd <YOUR_PROJECT_NAME>
 
-# 3. Install dependencies
+# Install dependencies
 npm install
 
-# 4. Start development server
+# Start development server
 npm run dev
+```
 
+The app will run at:
 
-The app will run locally at:
-
+```
 http://localhost:5173
+```
 
-🧪 Running Tests
-npm run test
+---
 
-🏗️ Build for Production
+# 🏗️ **Build for Production**
+
+```bash
 npm run build
-
-
-To preview the production build:
-
 npm run preview
+```
+
+---
+
+# ✨ **Planned Features**
+
+- 🔐 User authentication
+- 🛒 Course enrollment system
+- 📊 Progress tracking dashboard
+- ⭐ Course reviews & ratings
+- 🎓 Certification system
+
+---
+
+# 🤝 **Contributing**
+
+Contributions are welcome!  
+Fork the repository, create a feature branch, and open a Pull Request.
+
+---
+
+# 📄 **License**
+
+This project is licensed under the MIT License.
